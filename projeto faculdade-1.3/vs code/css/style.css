@@ -1,0 +1,467 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    word-spacing: 10px;
+    background-color: #363636;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    height: 130px;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: -16px;
+}
+
+.menu ul {
+    margin-left: 58%;
+    padding: 0%;
+    height: 17%;
+    margin-bottom: 36%;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li a {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: 'Actor';
+    word-spacing: 20px;
+
+    /* Adicionei cor ao texto para melhor visibilidade */
+}
+
+.Home {
+    display: flex;
+    background-color: #3f3f3f;
+    height: 75px;
+    align-items: flex-start;
+
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.gdcsystemlogo {
+    width: 12%;
+    height: auto;
+    margin-top: 45px;
+    margin-left: 12%;
+}
+
+ul,
+li a {
+    list-style: none;
+    padding: 0;
+    /* Opcional: remove o espaçamento padrão da lista */
+    text-decoration: none;
+    /* Remove sublinhado */
+}
+
+.texto-main-1 {
+    color: #ffffff;
+    margin-left: 9%;
+    padding: 3%;
+    margin-top: 0%;
+    font-family: 'Alata';
+    font-style: normal;
+    font-size: 36px;
+}
+
+.texto-main-2 {
+    color: #ffffff;
+    margin-left: 10%;
+    padding: 2%;
+    margin-top: -193px;
+    font-family: 'Alata';
+    font-style: normal;
+    font-size: 36px;
+}
+
+.texto-p1 {
+    color: #838383;
+    font-family: 'Actor';
+    padding: 10%;
+    margin-top: -285px;
+    font-size: 26px;
+    margin-left: 42px;
+}
+
+.menu-div {
+    color: #ffffff;
+    margin-left: 13%;
+    font-family: 'Alata';
+    font-size: 36px;
+    margin-top: -6%;
+}
+
+/* Rectangle 2 */
+.posicao-relativa {
+    position: relative;
+    /* Adicionado para garantir que o pseudo-elemento esteja posicionado em relação a este elemento */
+}
+
+.posicao-relativa::before {
+    content: "";
+    position: absolute;
+    width: 184px;
+    height: 6px;
+    left: -1px;
+    background: #D9D9D9;
+    margin-top: -3%;
+
+    background: #D9D9D9;
+}
+
+.itens-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 13%;
+}
+
+.bloco {
+    width: 256px;
+    height: 256px;
+    left: 223px;
+    top: 936px;
+    margin-top: -11%;
+
+    background: #3F3F3F;
+    border-radius: 5%;
+}
+
+.texto-itens-1 {
+    color: #ffffff;
+    font-family: 'Alata';
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.bloco-clique-aqui {
+    /* Rectangle 21 */
+
+    position: absolute;
+    width: 187px;
+    height: 55px;
+    left: 630px;
+    top: 1105px;
+    background: #705A51;
+    border-radius: 10px;
+    margin-left: 12%;
+
+}
+
+.texto-download-lista-1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Alata';
+    margin-top: 11px;
+    margin: 8%;
+}
+
+.texto-download-lista {
+    text-decoration: none;
+}
+
+.texto-itens-2 {
+    color: #ffffff;
+    font-family: 'Alata';
+    text-align: center;
+    text-decoration: none;
+    margin-top: 42%;
+}
+
+#p-lista-de-membros {
+    font-size: 11px;
+    color: #ffffff;
+    margin-top: 17%;
+}
+
+.bloco-2 {
+    width: 256px;
+    height: 256px;
+    left: 223px;
+    top: 936px;
+    margin-top: -11%;
+    background: #3F3F3F;
+    border-radius: 5px;
+}
+
+.itens-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 13%;
+}
+
+.bloco-3 {
+    width: 219px;
+    height: 219px;
+    background: #3F3F3F;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.itens-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 43%;
+    margin-left: 13%;
+    margin-top: -7%;
+    margin-bottom: 22%;
+}
+
+.footer {
+    /* Rectangle 24 */
+
+    position: unset;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 2112px;
+
+    background: #3F3F3F;
+
+}
+
+.texto-footer {
+    text-align: center;
+    top: 1%;
+    color: #ffffff;
+}
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+
+    .menu ul {
+        margin-left: 10%;
+        height: auto;
+        /* Ajuste conforme necessário */
+        margin-bottom: 10%;
+        padding: 10%;
+        margin-top: -5%;
+        flex-wrap: nowrap;
+
+        /* Ajuste conforme necessário */
+    }
+
+    .menu ul li a {
+        font-size: 12px;
+    }
+
+    .gdcsystemlogo {
+        width: 30%;
+        margin-left: 10%;
+        margin-top: 40px;
+        /* Ajuste conforme necessário */
+    }
+
+    .texto-main-1 {
+        margin-left: 5%;
+        padding: 2%;
+        font-size: 15px;
+        margin-top: 1%;
+        /* Ajuste conforme necessário */
+    }
+
+    .texto-main-2 {
+        margin-left: 5%;
+        padding: 2%;
+        font-size: 15px;
+        margin-top: -12%;
+        /* Ajuste conforme necessário */
+    }
+
+    .texto-p1 {
+        margin-left: 5%;
+        padding: 2%;
+        font-size: 18px;
+        /* Ajuste conforme necessário */
+        margin-top: -10%;
+        /* Ajuste conforme necessário */
+    }
+
+    .posicao-relativa::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 4px;
+        left: -1px;
+        background: #D9D9D9;
+        margin-top: -5%;
+
+        background: #D9D9D9;
+    }
+
+    .itens-1 {
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        margin-top: 15%;
+    }
+
+    .bloco {
+        width: 100px;
+        height: 100px;
+        left: 223px;
+        top: 936px;
+        margin-top: -11%;
+
+        background: #3F3F3F;
+        border-radius: 10px;
+    }
+
+    .texto-itens-1 {
+        color: #ffffff;
+        font-family: 'Alata';
+        text-align: center;
+        font-size: 11px;
+        margin-top: 1%;
+    }
+
+    .bloco-clique-aqui {
+        width: 54px;
+        height: 18px;
+        left: 635px;
+        top: 63%;
+        background: #705A51;
+        border-radius: 6px;
+        margin-left: -110%;
+    }
+
+    .texto-download-lista-1 {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Actor';
+        font-size: 7px;
+        margin-top: 7%;
+    }
+
+    .menu-div {
+        color: #ffffff;
+        margin-left: 10%;
+        font-family: 'Alata';
+        font-size: 15px;
+        margin-top: -6%;
+    }
+
+    .texto-itens-2 {
+        color: #ffffff;
+        font-family: 'Alata';
+        text-align: center;
+        text-decoration: none;
+        margin-top: 40%;
+        font-size: 12px;
+    }
+
+    #p-lista-de-membros {
+        font-size: 7px;
+        margin-top: 18%;
+        text-align: center;
+    }
+
+    .bloco-2 {
+        width: 100px;
+        height: 100px;
+        left: 223px;
+        top: 936px;
+        margin-top: -11%;
+
+        background: #3F3F3F;
+        border-radius: 10px;
+    }
+
+    .itens-2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        margin-top: 15%;
+    }
+
+    .bloco-3 {
+        width: 60px;
+        height: 60px;
+        left: 223px;
+        top: 936px;
+        margin-top: -11%;
+        background: #3F3F3F;
+        border-radius: 10px;
+    }
+
+    .itens-3 {
+        display: flex;
+        justify-content: space-between;
+        margin: 5% 38%;
+        margin-top: 13%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    #texto-especialidades {
+        font-size: 11px;
+        margin-left: -8%;
+    }
+
+    .footer {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 375px) {
+
+
+    .main {
+        width: 90%;
+        /* Ajuste a largura da seção principal para telas menores */
+    }
+
+    .bloco-clique-aqui {
+        width: 54px;
+        height: 18px;
+        left: 573px;
+        top: 85%;
+        background: #705A51;
+        border-radius: 6px;
+        margin-left: -110%;
+    }
+
+    .menu ul {
+        margin-left: 10%;
+        height: auto;
+        /* Ajuste conforme necessário */
+        margin-bottom: 10%;
+        padding: 10%;
+        margin-top: -5%;
+        flex-wrap: nowrap;
+
+        /* Ajuste conforme necessário */
+    }
+
+    .menu ul li a {
+        font-size: 9px;
+    }
+
+    input[type="text"] {
+        text-align: center;
+    }
+}
+
+input[type="text"] {
+    text-align: center;
+}
